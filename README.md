@@ -18,14 +18,14 @@ python TimedCaptcha.py
 The <b>MathCaptcha.py</b> has a user friendly interface (GUI.py). It instead requires users to solve a random math equation using BEDMAS rules (i.e., following order precedence and order of operations: Brackets, Exponents, Division, Multiplication, Addition, and Substraction). The program notifies users when the input is incorrect and prompts users to solve another Math Captcha. The interface also gives the option to <i>refresh</i> if the user finds current Captcha difficult to solve.<br> 
 
 ### Operators
-Operators | Operators in GUI
-------------- | -------------
-| Division | ÷ | 
-| Exponent | ^ | 
-| Multiplication | * | 
-| Addition | + | 
-| Subtraction | - |
-| Brackets | () |
+| Operators | Operators in GUI | Operators in Python | 
+------------- | ------------- | -------------
+| Division | ÷ | / |
+| Exponent | ^ | ** | 
+| Multiplication | * | * | 
+| Addition | + | + | 
+| Subtraction | - | - | 
+| Brackets | () | use eval | 
 
 Here is an example: <br> 
 
