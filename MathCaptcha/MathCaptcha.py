@@ -22,6 +22,8 @@ def equation_captcha() -> str:
             elif num1 % num2 != 0:
                 num1 = random.choice(list(range(2, 9, 2)))
                 num2 = 2
+        if operator == "^" and (num1 ** num2) > 20:
+            continue
         random_captcha += "(" + str(num1) + operator + str(num2) + ")"
 
     return random_captcha + " = " + " __"
@@ -38,19 +40,19 @@ def verify_input(user_input: str, captcha: str) -> bool:
     """
     compare = ""
     for i in range(1, len(captcha) - 6):
-        # finding the mid of captcha and replacing with a multiplication sign
+        # finding the mid and replacing with a multiplication sign
         if captcha[i] == ")" and captcha[i + 1] == "(":
             compare += "*"
         elif captcha[i] == "÷":
             compare += '/'
+        elif captcha[i] == "^":
+            compare += "**"
         elif captcha[i] != "(" or captcha[i] != ")":
             compare += captcha[i]
 
     # print(compare)
-    first_eq = eval(compare[:3])
-    second_eq = eval(compare[4:])
 
-    if user_input == (first_eq * second_eq):
+    if user_input == eval(compare):
         return True
     else:
         return False
