@@ -3,10 +3,10 @@
 TriSolving Captcha simulates a Turing Test which helps to differentiate between humans and computers. This repository has two files. 
 
 
-## Timed Captcha
+# Timed Captcha
 The <b>TimedCaptcha.py</b> file has a time limit of 9 seconds which makes the task even more challenging because the users have to type the captcha fast and respond quickly to be successful. The program provides a novel captcha each time, when the user input is incorrect or when the time runs out. 
 
-### How to Run: Timed Captcha
+## How to Run Timed Captcha?
 ### 1. Install Python 
 ### 2. Run the following in the terminal after installing Python:
 ```
@@ -14,7 +14,7 @@ python TimedCaptcha.py
 ```
 
 
-## Math Captcha 
+# Math Captcha 
 The <b>MathCaptcha.py</b> has a user friendly interface (GUI.py). It instead requires users to solve a random math equation using BEDMAS rules (order of operations: Brackets, Exponents, Division, Multiplication, Addition and Substraction). The program notifies users when the input is incorrect and prompts users to solve another Math Captcha. The interface also gives the option to <i>refresh</i> if the user finds current Captcha difficult to solve.<br> 
 
 Here is an example: <br> 
