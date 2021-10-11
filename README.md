@@ -23,3 +23,8 @@ Here is an example: <br>
 <img width="302" alt="Screen Shot 2021-10-11 at 10 25 28 AM" src="https://user-images.githubusercontent.com/55750079/136807101-79b32ba4-a3d6-4687-974c-8073cca38af4.png">
 
 
+
+## References
+https://www.britannica.com/technology/CAPTCHA
+
+**This project was inspired by related projects on GitHub.
