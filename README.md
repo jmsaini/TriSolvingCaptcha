@@ -24,7 +24,8 @@ Operators | Operators in GUI
 | Exponent | ^ | 
 | Multiplication | * | 
 | Addition | + | 
-| Subtraction| - |
+| Subtraction | - |
+| Brackets | () |
 
 Here is an example: <br> 
 
