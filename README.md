@@ -15,7 +15,7 @@ python TimedCaptcha.py
 
 
 ## Math Captcha 
-The <b>MathCaptcha.py</b> has a user friendly interface (GUI.py). It instead requires users to solve a math equation using BEDMAS rules (order of operations: Brackets, Exponents, Division, Multiplication, Addition and Substraction). The program notifies users when the input is incorrect and prompts users to solve another Math Captcha.<br> 
+The <b>MathCaptcha.py</b> has a user friendly interface (GUI.py). It instead requires users to solve a random math equation using BEDMAS rules (order of operations: Brackets, Exponents, Division, Multiplication, Addition and Substraction). The program notifies users when the input is incorrect and prompts users to solve another Math Captcha. The interface also gives the option to <i>refresh</i> if the user finds current Captcha difficult to solve.<br> 
 
 Here is an example: <br> 
 
