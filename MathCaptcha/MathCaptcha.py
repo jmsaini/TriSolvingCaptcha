@@ -20,8 +20,19 @@ def equation_captcha() -> str:
             if num2 == 0:
                 continue
             elif num1 % num2 != 0:
-                num1 = random.choice(list(range(2, 9, 2)))
-                num2 = 2
+                while num1 % num2 != 0:
+                    nested_lst = []
+                    index = 2
+                    while len(nested_lst) < 9:
+                        lst = []
+                        for i in range(index, 9, index):
+                            lst.append(i)
+                        nested_lst.append(lst)
+                        index += 1
+                    random_lst = random.choice(nested_lst)
+                    random_num = random.choice(random_lst)
+                    num1 = random_num
+                    num2 = nested_lst.index(random_lst) + 2
         if operator == "^" and (num1 ** num2) > 20:
             continue
         random_captcha += "(" + str(num1) + operator + str(num2) + ")"
