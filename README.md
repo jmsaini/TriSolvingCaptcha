@@ -35,7 +35,7 @@ Here is an example: <br>
 
 
 ## References
-https://www.britannica.com/technology/CAPTCHA
+https://www.britannica.com/technology/CAPTCHA <br>
 https://www.geeksforgeeks.org/program-generate-captcha-verify-user/
 
 **This project was inspired by related projects on GitHub.
